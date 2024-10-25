@@ -1,0 +1,39 @@
+table{
+    border-collapse:collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type='submit']{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart {
+    width: 20px;
+    border: none;
+   
+}
+
+option{
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid 
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(242, 242, 242);
+    margin: 20px;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.cart a{
+        background-color: #000;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    /* hero styling */
+    .hero {
+        background-image: url(/images/[GetPaidStock.com]-65c0ac6fdfdfe.jpg);
+        height: 100vh;
+        color: white;
+        /* opacity: 0.10; */
+        /* background-color: rgba(255, 255, 200, 0.8); */
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    /* features area */
+    .features {
+        padding: 20px;
+    }
+
+    .features-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .features-item {
+        background-color: #aaf540;
+        padding:20px;
+        margin: 10px;
+        width: 30%;
+    }
+
+    .features-item img{
+        width: 50px;
+        border-radius:100%;
+        position: relative;
+        right: -300px;
+        top: -20px
+    }
+
+    .cart {
+        width: 20px;
+        border: none;
+        background: none;
+       
+    }
+    

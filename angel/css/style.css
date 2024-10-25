@@ -1,0 +1,88 @@
+.header{
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'poppins';
+    font-weight: 300;
+    font-size: 16px;
+}
+.logo img{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.nav ul{
+    float: inline-end;
+    margin-top: -48px;
+    
+}
+
+.nav ul li{
+    display: inline-flex;
+    padding: 15px;
+    transform: rotate(30deg);
+}
+
+.nav ul li a:hover{
+    color: white;
+    background-color: rgb(2, 58, 80);
+    padding: 10px;
+    transition: all 5s ease;
+}
+
+
+.hero img{
+    width: 500px;
+    margin: 30px;
+}
+
+.text{
+    width: 400px;
+    margin-left: 650px;
+    margin-top: -370px;
+    /* text-align: center; */
+}
+
+.text h1{
+    font-size: 40px;
+    color: rgb(7, 105, 197);
+}
+
+.text p{
+    color:rgb(85, 85, 85);
+}
+
+.all {
+    margin: 0;
+    padding: 15px;
+    display: inline-flex;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border: 1px solid #d1cece;
+    border-radius: 5px;
+}
+
+
+.one {
+    background-color:rgb(20, 20, 20);
+    color: rgb(163, 162, 162);
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 25px;;
+    border-radius: 15px;
+}
+.one > h1, p{
+    margin: 4px;
+    font-size: 90%;
+    padding: 5px;
+}
+
+.one h1{
+    color: rgba(122, 241, 98, 0.918);
+    font-size: 20px;
+}
+
